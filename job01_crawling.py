@@ -1,6 +1,5 @@
 from selenium import webdriver
 import pandas as pd
-from selenium.common.exceptions import NoSuchElementException
 import time
 
 options = webdriver.ChromeOptions()
