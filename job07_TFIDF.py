@@ -16,24 +16,3 @@ print(tfidf_matrix[0].shape)
 with open('./models/tfidf.pickle', 'wb') as f: # 저장은 wb -> write
     pickle.dump(tfidf, f)
 mmwrite('./models/tfidf_movie_review.mtx', tfidf_matrix)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

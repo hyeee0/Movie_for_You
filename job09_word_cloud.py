@@ -23,6 +23,7 @@ worddict = dict(worddict)
 print(worddict)
 
 # 키워드를 시각화 해주는 작업
+# 단어의 빈도가 높으면 시각화 되는 단어의 크기가 크다 -> 두 영화의 단어를 비교하면서 왜 추천됐는지 확인해보자
 wordcloud_img = WordCloud(background_color='white', max_words=2000,
                           font_path=font_path).generate_from_frequencies(worddict)
 plt.figure(figsize=(12, 12))
